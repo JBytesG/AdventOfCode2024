@@ -11,6 +11,7 @@ for l in f:
     num1, num2 = getNums(l)
     list1.append(num1)
     list2.append(num2)
+f.close()
 
 list1 = np.sort(list1)
 list2 = np.sort(list2)
